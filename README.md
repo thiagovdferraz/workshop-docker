@@ -15,4 +15,12 @@ Com o Docker podemos instalar isso com um comando
 
 ```bash
 FROM python:3.12.5
+... ver dockerfile
+```
+
+Rodar Docker
+
+```bash
+docker build -t minha-primeira-imagem .
+docker run -d -p 8501:8501 --name my-first-container minha-primeira-imagem
 ```
